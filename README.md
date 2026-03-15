@@ -141,6 +141,8 @@ The `docs/` directory is written to be read end-to-end. Start at `01`, each one 
 | [06-behavior-rules.md](docs/06-behavior-rules.md) | The communication rules and how to apply them |
 | [07-customization.md](docs/07-customization.md) | Making it yours — what to change, what to leave |
 | [08-ecosystem.md](docs/08-ecosystem.md) | Complementary tools worth knowing |
+| [09-folder-architecture.md](docs/09-folder-architecture.md) | Folder structure principles + per-project templates |
+| [10-local-agent.md](docs/10-local-agent.md) | Agentic Ollama — give it a task, it executes |
 
 ---
 
@@ -172,7 +174,8 @@ agent-os/
 ├── ollama/                   ← local model setup
 ├── agents/                   ← sub-agent definitions
 ├── scripts/                  ← setup, build, verify
-└── docs/                     ← the full guide
+├── structures/               ← folder templates (nextjs, python-api, monorepo, automation, cli)
+└── docs/                     ← the full guide (docs 01-10)
 ```
 
 ---
