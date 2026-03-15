@@ -89,8 +89,8 @@ The `brain/` directory is plain markdown files every AI reads:
 | `decisions.md` | Why things are the way they are (ADRs) |
 | `ai-behavior.md` | How every AI in this env must behave |
 
-Claude reads via `CLAUDE.md`. Cursor reads via `.cursorrules`. Ollama has it in its system prompt.
-One update, all three models know.
+Claude reads via `CLAUDE.md`. Cursor reads via `.cursorrules`. Cline reads via `.clinerules`. Ollama has it in its system prompt.
+One update, all models know.
 
 ### Behavior rules
 
@@ -154,6 +154,8 @@ The `docs/` directory is written to be read end-to-end. Start at `01`, each one 
 Optional but recommended:
 - [ECC (Everything Claude Code)](https://github.com/affaan-m/everything-claude-code) — extends Claude Code with skills, agents, and rules
 - [Continue.dev](https://github.com/continuedev/continue) — multi-model IDE extension, complements Cursor
+- [Cline](https://github.com/cline/cline) — VS Code extension for Claude with autonomous file/terminal access (`.clinerules` included)
+- [Aider](https://github.com/paul-gauthier/aider) — CLI pair programmer, architect/editor split maps directly to our routing table
 
 ---
 

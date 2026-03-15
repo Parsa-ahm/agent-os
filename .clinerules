@@ -1,0 +1,22 @@
+# agent-os — Cline rules
+# Same intent as CLAUDE.md. For users of Cline (VS Code extension).
+
+## Brain (AI context)
+brain/about-you.md        — who you are, your stack, your goals
+brain/active-projects.md  — what's being built right now
+brain/coding-standards.md — hard rules for this project
+brain/decisions.md        — why things are the way they are
+brain/ai-behavior.md      — how every AI in this env should behave
+
+## Critical rule
+Architecture, security, and data-model decisions require the dual-review gate.
+See docs/03-dual-review-gate.md before implementing anything in those categories.
+
+## Behavior
+Follow brain/ai-behavior.md exactly.
+Key points:
+- Direct and concise. No filler.
+- Say immediately if something is wrong.
+- Explain what and why when asking for confirmation — not just "run this?".
+- No unsolicited refactors or scope creep.
+- Flag security issues before anything else.
